@@ -1,0 +1,119 @@
+#myslidemenu {
+	padding: 0px;
+	text-align: center;
+	background-image: url(../images/button1.gif);
+	height: 35px;
+	/* [disabled]float: left; */
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-repeat: repeat-x;
+	background-position: left top;
+	float: left;
+	width: 953px;
+}
+.jqueryslidemenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: lighter;
+	}
+.jqueryslidemenu ul {
+	PADDING-BOTTOM: 0px;
+	liST-STYLE-TYPE: none;
+	MARGIN: 0px;
+	PADDING-LEFT: 3px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+.jqueryslidemenu ul li {
+	POSITION: relative;
+	DISPLAY: inline;
+	FLOAT: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #2E2E2E;
+}
+.jqueryslidemenu ul li:hover {
+	TEXT-DECORATION: none;
+	color: #397FBD;
+	background-image: url(../images/button3.gif);
+}
+.jqueryslidemenu ul li:hover a {
+	color: #000;
+}
+
+.jqueryslidemenu ul li a {
+	PADDING-BOTTOM: 11px;
+	PADDING-LEFT: 7px;
+	PADDING-RIGHT: 8px;
+	DISPLAY: block;
+	TEXT-DECORATION: none;
+	PADDING-TOP: 10px;
+	color: #FFF;
+}
+* HTML .jqueryslidemenu ul li a {
+	DISPLAY: inline-block
+}
+.jqueryslidemenu ul li a:link {
+	/* [disabled]COLOR: #FFF; */
+}
+.jqueryslidemenu ul li a:visited {
+	/* [disabled]COLOR: #000; */
+}
+.jqueryslidemenu ul li a:hover {
+	TEXT-DECORATION: none;
+	color: #000;
+	background-image: url(../images/button3.gif);
+}
+.jqueryslidemenu ul li ul {
+	POSITION: absolute;
+	DISPLAY: block;
+	VISIBIliTY: hidden;
+	LEFT: 0px;
+	padding-left: 0px;
+}
+.jqueryslidemenu ul li ul li {
+	DISPLAY: list-item;
+	FLOAT: none;
+	z-index: 1050;
+	border-right-style: solid;
+	color: #000;
+	border-right-width: 1px;
+	border-right-color: #e5d8d8;
+	/* [disabled]border-top-width: 1px; */
+	/* [disabled]border-top-style: solid; */
+	/* [disabled]border-top-color: #e5d8d8; */
+}
+.jqueryslidemenu ul li ul li ul {
+	TOP: 0px
+}
+.jqueryslidemenu ul li ul li a {
+	MARGIN: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e5d8d8;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #e5d8d8;
+	background-color: #FFF;
+	width: 200px;
+	border-right-style: none;
+	text-align: left;
+	color: #000;
+}
+.jqueryslidemenu ul li ul li a:hover {
+	background-color: #F1F1F1;
+}
+.downarrowclass {
+	POSITION: absolute;
+	TOP: 15px;
+	RIGHT: 7px;
+}
+.rightarrowclass {
+	POSITION: absolute; TOP: 6px; RIGHT: 5px
+}
